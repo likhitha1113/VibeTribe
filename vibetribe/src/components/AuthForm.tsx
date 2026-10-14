@@ -83,7 +83,7 @@ export function AuthForm({ next, initialError }: { next: string; initialError?: 
         )}
         <div>
           <label htmlFor="email" className="label">Email</label>
-          <input id="email" type="email" className="input" value={email} autoComplete="email" onChange={(e) => setEmail(e.target.value)} />
+          <input id="email" type="email" className="input" value={email} autoComplete="email" onChange={(e) => setEmail(e.target.value)}  placeholder="For demo, u can enter dummy email and password"/>
         </div>
         <div>
           <label htmlFor="pw" className="label">Password</label>
